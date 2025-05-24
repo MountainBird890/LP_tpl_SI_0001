@@ -1,0 +1,1167 @@
+/*　　　　　　　　small-sp　　　　　　　　*/
+@media screen and (max-width:375px){
+.glo-nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+}
+
+.logo{
+    border: none;
+    background-color: transparent;
+}
+
+.logo img{
+    text-align: center;
+    max-width: 40px;
+    width: 100%;
+    height: auto;
+}
+
+.button-list{
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    padding: 20% 0;
+}
+
+.button-list button{
+    background-color: transparent;
+    text-align: center;
+    border: none;
+}
+
+.button-list button div{
+    font-family: "Noto Sans JP", serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-size: 1.15rem;
+    text-decoration: none;
+}
+
+
+.hamburger {
+    text-align: center;
+    max-width: 40px;
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: rgb(114, 114, 114);
+    font-size: 1.5rem;
+}
+            
+.nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 100vh;
+}
+            
+.nav-links.active {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    background-color: #ffffff;
+}
+            
+.nav-links li {
+    margin: 0.5rem 0;
+    margin-left: 0;
+}
+
+
+/*  CTA  */
+.cta1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    max-width: 14rem;
+    width: 100%;
+    height: auto;
+}
+
+.cta2-3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 14rem;
+    width: 100%;
+    height: auto;
+}
+
+
+/*  トップピクチャー  */
+.top-pic{
+    text-align: center;
+    padding: 0;
+}
+
+.top-pic img{
+    max-width: 2000px;
+    width: 100%;
+    max-height: 1000px;
+    height: 100%;
+}
+
+
+
+/*  会社情報とコピーライト  */
+.footer{
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    justify-content: center;
+    padding: 15% 0 5% 0;
+}
+
+.footer_wrapper{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    user-select: none;
+}
+
+.footer_main_contents_explainedR1{
+    font-size: 0.62rem;
+}
+
+
+
+
+/*  コピーライト  */
+.copy-right{
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    font-size: 0.62rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+}
+
+
+
+
+
+
+
+/*　　　　　　　　middle-sp　　　　　　　　*/
+@media screen and (min-width:375px) and (max-width:425px){
+
+
+.glo-nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+}
+
+.logo{
+    border: none;
+    background-color: transparent;
+}
+
+.logo img{
+    text-align: center;
+    max-width: 40px;
+    width: 100%;
+    height: auto;
+}
+
+.button-list{
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    padding: 15% 0;
+}
+
+.button-list button{
+    background-color: transparent;
+    text-align: center;
+    border: none;
+}
+
+.button-list button div{
+    font-family: "Noto Sans JP", serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+
+.hamburger {
+    text-align: center;
+    max-width: 40px;
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: rgb(114, 114, 114);
+    font-size: 1.8rem;
+}
+            
+.nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 100vh;
+}
+            
+.nav-links.active {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    background-color: #ffffff;
+}
+            
+.nav-links li {
+    margin: 0.5rem 0;
+    margin-left: 0;
+}
+
+
+/*  CTA  */
+.cta1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    max-width: 16rem;
+    width: 100%;
+    height: auto;
+}
+
+.cta2-3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 16rem;
+    width: 100%;
+    height: auto;
+}
+
+
+/*  トップピクチャー  */
+.top-pic{
+    text-align: center;
+}
+
+.top-pic img{
+    max-width: 2000px;
+    width: 100%;
+    max-height: 1000px;
+    height: 100%;
+}
+
+
+
+
+/*  会社情報とコピーライト  */
+.footer{
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    justify-content: center;
+    padding: 15% 0 5% 0;
+}
+
+.footer_wrapper{
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+
+.footer_main_contents_explainedR1{
+    font-size: 0.75rem;
+}
+
+
+
+
+/*  コピーライト  */
+.copy-right{
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    font-size: 0.62rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+
+}
+
+
+
+
+/*　　　　　　　　large-sp　　　　　　　　*/
+@media screen and (min-width:425px) and (max-width:500px){
+
+
+.glo-nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+}
+
+.logo{
+    border: none;
+    background-color: transparent;
+}
+
+.logo img{
+    text-align: center;
+    max-width: 48px;
+    width: 100%;
+    height: auto;
+}
+
+.button-list{
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    padding: 15% 0;
+}
+
+.button-list button{
+    background-color: transparent;
+    text-align: center;
+    border: none;
+}
+
+.button-list button div{
+    font-family: "Noto Sans JP", serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+
+.hamburger {
+    text-align: center;
+    max-width: 40px;
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: rgb(114, 114, 114);
+    font-size: 1.8rem;
+}
+            
+.nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 100vh;
+}
+            
+.nav-links.active {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    background-color: #ffffff;
+}
+            
+.nav-links li {
+    margin: 0.5rem 0;
+    margin-left: 0;
+}
+
+/*  CTA  */
+.cta1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    max-width: 18rem;
+    width: 100%;
+    height: auto;
+}
+
+.cta2-3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 18rem;
+    width: 100%;
+    height: auto;
+}
+
+
+/*  トップピクチャー  */
+.top-pic{
+    text-align: center;
+}
+
+.top-pic img{
+    max-width: 2000px;
+    width: 100%;
+    max-height: 1000px;
+    height: 100%;
+}
+
+
+/*  会社情報とコピーライト  */
+.footer{
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    justify-content: center;
+    padding: 15% 0 5% 0;
+}
+
+.footer_wrapper{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    user-select: none;
+}
+
+
+.footer_main_contents_explainedR1{
+    font-size: 1rem;
+}
+
+
+
+
+/*  コピーライト  */
+.copy-right{
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    font-size: 0.62rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+}
+
+
+
+
+
+
+/*　　　　　　　　large-sp　　　　　　　　*/
+@media screen and (min-width:500px) and (max-width:600px){
+
+
+.glo-nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+}
+
+.logo{
+    border: none;
+    background-color: transparent;
+}
+
+.logo img{
+    text-align: center;
+    max-width: 48px;
+    width: 100%;
+    height: auto;
+}
+
+.button-list{
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    padding: 9% 0;
+}
+
+.button-list button{
+    background-color: transparent;
+    text-align: center;
+    border: none;
+}
+
+.button-list button div{
+    font-family: "Noto Sans JP", serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+
+.hamburger {
+    text-align: center;
+    max-width: 40px;
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: rgb(114, 114, 114);
+    font-size: 2.3rem;
+}
+            
+.nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 100vh;
+}
+            
+.nav-links.active {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    background-color: #ffffff;
+}
+            
+.nav-links li {
+    margin: 0.5rem 0;
+    margin-left: 0;
+}
+
+/*  CTA  */
+.cta1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    max-width: 23rem;
+    width: 100%;
+    height: auto;
+}
+
+.cta2-3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 23rem;
+    width: 100%;
+    height: auto;
+}
+
+
+/*  トップピクチャー  */
+.top-pic{
+    text-align: center;
+}
+
+.top-pic img{
+    max-width: 2000px;
+    width: 100%;
+    max-height: 1000px;
+    height: 100%;
+}
+
+
+/*  会社情報とコピーライト  */
+.footer{
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    justify-content: center;
+    padding: 15% 0 5% 0;
+}
+
+.footer_wrapper{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    user-select: none;
+}
+
+
+.footer_main_contents_explainedR1{
+    font-size: 1rem;
+}
+
+
+
+
+/*  コピーライト  */
+.copy-right{
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    font-size: 0.62rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+}
+
+
+
+
+/*　　　　　　　　large-sp　　　　　　　　*/
+@media screen and (min-width:600px) and (max-width:768px){
+
+
+.glo-nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+}
+
+.logo{
+    border: none;
+    background-color: transparent;
+}
+
+.logo img{
+    text-align: center;
+    max-width: 48px;
+    width: 100%;
+    height: auto;
+}
+
+.button-list{
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    padding: 6% 0;
+}
+
+.button-list button{
+    background-color: transparent;
+    text-align: center;
+    border: none;
+}
+
+.button-list button div{
+    font-family: "Noto Sans JP", serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+
+.hamburger {
+    text-align: center;
+    max-width: 40px;
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: rgb(114, 114, 114);
+    font-size: 3rem;
+}
+            
+.nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 100vh;
+}
+            
+.nav-links.active {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    background-color: #ffffff;
+}
+            
+.nav-links li {
+    margin: 0.5rem 0;
+    margin-left: 0;
+}
+
+/*  CTA  */
+.cta1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    max-width: 28rem;
+    width: 100%;
+    height: auto;
+}
+
+.cta2-3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 28rem;
+    width: 100%;
+    height: auto;
+}
+
+
+/*  トップピクチャー  */
+.top-pic{
+    text-align: center;
+}
+
+.top-pic img{
+    max-width: 2000px;
+    width: 100%;
+    max-height: 1000px;
+    height: 100%;
+}
+
+
+/*  会社情報とコピーライト  */
+.footer{
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    justify-content: center;
+    padding: 15% 0 5% 0;
+}
+
+.footer_wrapper{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    user-select: none;
+}
+
+
+.footer_main_contents_explainedR1{
+    font-size: 1rem;
+}
+
+
+
+
+/*  コピーライト  */
+.copy-right{
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    font-size: 0.62rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+}
+
+
+
+
+
+
+/*　　　　　　　　　　tablet　　　　　　　　　　*/
+@media screen and (min-width:768px) and (max-width:1024px){
+#about{
+    padding-top: 8%;
+}
+
+#sales{
+    padding-top: 6%;
+}
+
+#reform{
+    padding-top: 5%;
+}
+
+
+#contact{
+    padding-top: 2%;
+}
+
+.glo-nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+}
+
+.logo{
+    border: none;
+    background-color: transparent;
+}
+
+.logo img{
+    text-align: center;
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+}
+
+.button-list{
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    padding: 4% 0;
+}
+
+.button-list button{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: none;
+}
+
+.button-list button div{
+    font-family: "Noto Sans JP", serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+
+.hamburger {
+    text-align: center;
+    max-width: 40px;
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: rgb(114, 114, 114);
+    font-size: 3rem;
+}
+            
+.nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 100vh;
+}
+            
+.nav-links.active {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    background-color: #ffffff;
+}
+            
+.nav-links li {
+    margin: 0.5rem 0;
+    margin-left: 0;
+}
+
+
+/*  CTA  */
+.cta1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    max-width: 35rem;
+    width: 100%;
+    height: auto;
+}
+
+.cta2-3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 35rem;
+    width: 100%;
+    height: auto;
+}
+
+
+/*  トップピクチャー  */
+.top-pic{
+    text-align: center;
+}
+
+.top-pic img{
+    max-width: 2000px;
+    width: 100%;
+    max-height: 1000px;
+    height: 100%;
+}
+
+
+
+/*  会社情報とコピーライト  */
+.footer{
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    justify-content: center;
+    padding: 13% 0 5% 0;
+}
+
+.footer_wrapper{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    user-select: none;
+    margin: 0 5%;
+}
+
+
+.footer_main_contents_explainedR1{
+    font-size: 1.56rem;
+}
+
+
+
+
+/*  コピーライト  */
+.copy-right{
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+}
+
+
+
+
+
+
+
+
+/*　　                　pc　　                　*/
+@media screen and (min-width:1024px){
+#about{
+    padding-top: 8%;
+}
+
+#sales{
+    padding-top: 7%;
+}
+
+#reform{
+    padding-top: 7%;
+}
+
+
+
+#contact{
+    padding-top: 2%;
+}
+
+.glo-nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+}
+
+.logo{
+    border: none;
+    background-color: transparent;
+}
+
+.logo img{
+    text-align: center;
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+}
+
+.button-list{
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    padding: 3% 0;
+}
+
+.button-list button{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: none;
+}
+
+.button-list button div{
+    font-family: "Noto Sans JP", serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+
+.hamburger {
+    text-align: center;
+    max-width: 40px;
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: rgb(114, 114, 114);
+    font-size: 3rem;
+}
+            
+.nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 100vh;
+}
+            
+.nav-links.active {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    background-color: #ffffff;
+}
+            
+.nav-links li {
+    margin: 0.5rem 0;
+    margin-left: 0;
+}
+
+
+/*  CTA  */
+.cta1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    max-width: 35rem;
+    width: 100%;
+    height: auto;
+}
+
+.cta2-3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 35rem;
+    width: 100%;
+    height: auto;
+}
+
+
+/*  トップピクチャー  */
+.top-pic{
+    text-align: center;
+}
+
+.top-pic img{
+    max-width: 2000px;
+    width: 100%;
+    max-height: 1000px;
+    height: 100%;
+}
+
+
+
+/*  会社情報とコピーライト  */
+.footer{
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    justify-content: center;
+    padding: 13% 0 5% 0;
+}
+
+.footer_wrapper{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    user-select: none;
+    margin: 0 5%;
+}
+
+
+.footer_main_contents_explainedR1{
+    font-size: 1.56rem;
+}
+
+
+
+
+/*  コピーライト  */
+.copy-right{
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+
+}
+
+}
+
+
+
+
